@@ -10,16 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/d9d/memoized-decorator.git"
   },
-  "keywords": [
-    "memoize",
-    "decorator",
-    "memoization",
-    "es6",
-    "es7",
-    "classes"
-  ],
+  "keywords": ["memoize", "decorator", "memoization", "es6", "es7", "classes"],
   "author": "Mark Kahn <m@vouchr.com>",
-  "license": "Unlicense",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/d9d/memoized-decorator/issues"
   },
