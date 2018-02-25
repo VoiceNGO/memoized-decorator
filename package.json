@@ -1,8 +1,8 @@
 {
   "name": "memoized-decorator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minimalistic memoization decorator",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/d9d/memoized-decorator.git"
   },
-  "keywords": ["memoize", "decorator", "memoization", "es6", "es7", "classes"],
+  "keywords": [
+    "memoize",
+    "decorator",
+    "memoization",
+    "es6",
+    "es7",
+    "classes"
+  ],
   "author": "Mark Kahn <m@vouchr.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/d9d/memoized-decorator/issues"
   },
-  "homepage": "https://github.com/d9d/memoized-decorator#readme"
+  "homepage": "https://github.com/d9d/memoized-decorator#readme",
+  "dependencies": {
+    "serialize-javascript": "^1.4.0"
+  }
 }
