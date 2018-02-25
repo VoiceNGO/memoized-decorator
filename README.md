@@ -1,10 +1,11 @@
 # Memoized Decorator
 
-A minimilistic memoize decorator.  Written because the only other memoize
-  decorator I found in NPM didn't support arguments!
+A minimilistic memoize decorator. Written because the only other memoize
+decorator I found in NPM didn't support arguments!
 
-Serializes arguments by `.toString()` or `JSON.strinigify` for objects literals
-  & arrays.  `null` & `undefined` safe.
+Serializes arguments via serialize-javascript package. Only caveat I know
+of is that `undefined` serializes to `null`, but this behavior seems correct
+to me. If you disagree open an issue and we can discuss :)
 
 ## Installation
 
