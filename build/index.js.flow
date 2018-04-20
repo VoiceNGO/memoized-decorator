@@ -1,15 +1,9 @@
 // @flow
+// @providesModule decorators/memoize
 
 import serialize from 'serialize-javascript';
 
-export type PropertyDescriptor = {
-  enumerable?: boolean,
-  configurable?: boolean,
-  writable?: boolean,
-  value?: any,
-  get?: () => Function,
-  set?: (value: Function) => void,
-};
+import type { PropertyDescriptor } from 'flow-types';
 
 const instanceMap: WeakMap<Object, number> = new WeakMap();
 const methodMap: Map<string, *> = new Map();
